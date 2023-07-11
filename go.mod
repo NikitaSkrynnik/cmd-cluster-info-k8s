@@ -1,12 +1,12 @@
-module github.com/networkservicemesh/cmd-cluster-info-k8s
+module github.com/NikitaSkrynnik/cmd-cluster-info-k8s
 
 go 1.20
 
 require (
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711085827-4db638c6c620
 	github.com/antonfisher/nested-logrus-formatter v1.3.1
 	github.com/edwarnicke/serialize v1.0.7
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/networkservicemesh/sdk v0.5.1-0.20230710100721-01bb35f8c3d6
 	github.com/sirupsen/logrus v1.9.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/apimachinery v0.24.3

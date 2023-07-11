@@ -36,9 +36,9 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/rest"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
-	"github.com/networkservicemesh/sdk/pkg/tools/opentelemetry"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log/logruslogger"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/opentelemetry"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	aboutv1alpha1 "k8s.io/clusterproperty/api/v1alpha1"
